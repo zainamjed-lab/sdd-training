@@ -3,8 +3,6 @@
 **Feature ID**: [NNN]
 **Branch**: [branch-name]
 **Status**: Draft | Review | Approved
-**Author**: [author]
-**Date**: [YYYY-MM-DD]
 
 ---
 

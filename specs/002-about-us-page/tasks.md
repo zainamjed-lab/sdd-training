@@ -1,7 +1,7 @@
 # Tasks: About Us Page
 
 **Spec**: [spec.md](./spec.md) | **Plan**: [plan.md](./plan.md)
-**Total**: 9 tasks | **Status**: All complete (retroactive)
+**Total**: 9 tasks
 
 ---
 

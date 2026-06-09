@@ -1,7 +1,7 @@
 # Implementation Plan: About Us Page
 
 **Spec**: [spec.md](./spec.md)
-**Status**: Approved (retroactive)
+**Status**: Approved
 
 ---
 

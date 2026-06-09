@@ -3,8 +3,6 @@
 **Feature ID**: 001
 **Branch**: 001-login-page
 **Status**: Approved
-**Author**: sdd-training
-**Date**: 2026-06-09
 
 ---
 

@@ -2,9 +2,7 @@
 
 **Feature ID**: 002
 **Branch**: 002-about-us-page
-**Status**: Approved (retroactive)
-**Author**: sdd-training
-**Date**: 2026-06-09
+**Status**: Approved
 
 ---
 
