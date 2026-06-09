@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us — AWS Premier Partner & MSP</title>
+  <link rel="stylesheet" href="/css/contact.css" />
+</head>
+<body>
+
+  <!-- ── NAV ── -->
+  <nav class="nav">
+    <a class="nav-logo" href="/">
+      <img src="/images/logo.webp" alt="Company Logo" />
+      <span>SDD Training</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="/about.html">About Us</a></li>
+      <li><a href="/about.html#services">Services</a></li>
+      <li><a href="/about.html#aws-partnership">AWS Partnership</a></li>
+      <li><a href="/contact.html" class="active">Contact Us</a></li>
+      <li><a href="/login.html" class="nav-cta">Sign In</a></li>
+    </ul>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section class="hero">
+    <div class="hero-inner">
+      <h1>Let's <span>Start a Conversation</span></h1>
+      <p>Whether you're exploring cloud migration, need managed support, or want to learn more about our AWS Premier Partnership — we're here to help.</p>
+      <div class="stat-chips">
+        <span class="stat-chip"><span class="dot"></span> Responds within 24 hours</span>
+        <span class="stat-chip"><span class="dot"></span> Available 24 / 7 / 365</span>
+        <span class="stat-chip">🏆 AWS Premier Tier Partner</span>
+      </div>
+      <a href="#contact-form" class="btn-aws">Send Us a Message</a>
+    </div>
+  </section>
+
+  <!-- ── MAIN CONTENT ── -->
+  <div class="contact-section">
+
+    <!-- ── FORM PANEL ── -->
+    <div class="form-panel">
+      <h2 class="panel-title">Get in Touch</h2>
+      <p class="panel-sub">Fill in the form and one of our experts will be in touch shortly.</p>
+
+      <form id="contact-form" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="full-name">Full Name</label>
+            <input type="text" id="full-name" name="full-name" placeholder="Jane Smith" autocomplete="name" />
+            <span class="field-error" id="err-full-name">Please enter your full name.</span>
+          </div>
+          <div class="form-group">
+            <label for="email">Work Email</label>
+            <input type="email" id="email" name="email" placeholder="jane@company.com" autocomplete="email" />
+            <span class="field-error" id="err-email">Please enter a valid email address.</span>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="company">Company</label>
+            <input type="text" id="company" name="company" placeholder="Acme Corp" autocomplete="organization" />
+            <span class="field-error" id="err-company">Please enter your company name.</span>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone <span class="optional">(optional)</span></label>
+            <input type="tel" id="phone" name="phone" placeholder="+1 555 000 0000" autocomplete="tel" />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <select id="subject" name="subject">
+            <option value="">— Select a topic —</option>
+            <option value="general">General Inquiry</option>
+            <option value="migration">Cloud Migration</option>
+            <option value="managed">Managed Services</option>
+            <option value="partnership">AWS Partnership</option>
+            <option value="support">Support</option>
+            <option value="other">Other</option>
+          </select>
+          <span class="field-error" id="err-subject">Please select a subject.</span>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Tell us how we can help…"></textarea>
+          <div class="char-counter"><span id="char-count">0</span> / 1000</div>
+          <span class="field-error" id="err-message">Message must be at least 10 characters.</span>
+        </div>
+
+        <button type="submit" class="btn-submit" id="submit-btn">Send Message</button>
+      </form>
+
+      <!-- Success state -->
+      <div class="success-card hidden" id="success-card">
+        <div class="success-icon">✅</div>
+        <h3>Message Sent!</h3>
+        <p>Thanks for reaching out. One of our AWS-certified experts will get back to you within 24 hours.</p>
+        <button class="btn-reset" id="reset-btn">Send Another Message</button>
+      </div>
+    </div>
+
+    <!-- ── INFO PANEL ── -->
+    <div class="info-panel">
+
+      <div class="info-card">
+        <p class="info-card-title">📬 Contact Details</p>
+
+        <div class="contact-detail">
+          <div class="detail-icon">✉️</div>
+          <div>
+            <div class="detail-label">Email</div>
+            <div class="detail-value"><a href="mailto:hello@sddtraining.com">hello@sddtraining.com</a></div>
+          </div>
+        </div>
+
+        <div class="contact-detail">
+          <div class="detail-icon">📞</div>
+          <div>
+            <div class="detail-label">Phone</div>
+            <div class="detail-value"><a href="tel:+18005550100">+1 (800) 555-0100</a></div>
+          </div>
+        </div>
+
+        <div class="contact-detail">
+          <div class="detail-icon">📍</div>
+          <div>
+            <div class="detail-label">Address</div>
+            <div class="detail-value">123 Cloud Avenue, Suite 400<br/>San Francisco, CA 94105</div>
+          </div>
+        </div>
+
+        <div class="contact-detail">
+          <div class="detail-icon">🕐</div>
+          <div>
+            <div class="detail-label">Office Hours</div>
+            <div class="detail-value">Mon – Fri: 9 AM – 6 PM PST<br/>NOC support: 24 / 7 / 365</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="info-card">
+        <p class="info-card-title">🚀 What Happens Next</p>
+        <ul class="steps">
+          <li class="step">
+            <span class="step-num">1</span>
+            <div>
+              <div class="step-title">We Receive & Review</div>
+              <div class="step-desc">Your message lands with our team instantly. We review every inquiry within a few hours.</div>
+            </div>
+          </li>
+          <li class="step">
+            <span class="step-num">2</span>
+            <div>
+              <div class="step-title">We Assign an Expert</div>
+              <div class="step-desc">Based on your topic, we match you with the right AWS-certified architect or account manager.</div>
+            </div>
+          </li>
+          <li class="step">
+            <span class="step-num">3</span>
+            <div>
+              <div class="step-title">We Schedule a Call</div>
+              <div class="step-desc">You'll receive a calendar invite within 24 hours for a no-commitment discovery call.</div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ── FOOTER ── -->
+  <footer class="footer">
+    <p>© 2026 SDD Training — AWS Premier Tier Partner &amp; MSP &nbsp;|&nbsp;
+      <a href="/about.html">About</a> &nbsp;·&nbsp;
+      <a href="/contact.html">Contact</a> &nbsp;·&nbsp;
+      <a href="/login.html">Portal Login</a>
+    </p>
+  </footer>
+
+  <script src="/js/contact.js"></script>
+</body>
+</html>
