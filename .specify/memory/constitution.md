@@ -5,9 +5,16 @@
 
 ---
 
-## Article I — Spec First
+## Article I — Spec First (Non-Negotiable)
 
-No code is written before a corresponding `spec.md` is approved. Specs live in `specs/<NNN>-<feature>/`.
+No code is written before **all three** SDD artifacts exist and are complete:
+
+1. `specs/<NNN>-<feature>/spec.md` — objective, user stories, acceptance criteria, NFRs
+2. `specs/<NNN>-<feature>/plan.md` — architecture, data models, API contracts, module breakdown
+3. `specs/<NNN>-<feature>/tasks.md` — ordered, verifiable task list
+
+This applies to every feature, page, component, or API change — no exceptions.
+If something is built without these artifacts, they must be created retroactively before the next feature begins.
 
 ## Article II — Explicit Over Implicit
 
