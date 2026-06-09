@@ -40,6 +40,18 @@ body {
   margin-bottom: .25rem;
 }
 
+.card-logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+}
+
+.card-logo img {
+  height: 72px;
+  width: auto;
+  object-fit: contain;
+}
+
 .card-subtitle {
   font-size: .875rem;
   color: var(--muted);
