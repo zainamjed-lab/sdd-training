@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(winget install *)",
+      "Bash(echo \"# sdd-training\")",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git branch *)",
+      "WebSearch",
+      "Bash(uvx --version)",
+      "Bash(gh api *)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:api.github.com)",
+      "Bash(mkdir -p \"d:\\\\Training\\\\sdd\\\\.specify\\\\memory\" \"d:\\\\Training\\\\sdd\\\\.specify\\\\templates\" \"d:\\\\Training\\\\sdd\\\\.claude\\\\skills\\\\speckit-specify\" \"d:\\\\Training\\\\sdd\\\\.claude\\\\skills\\\\speckit-plan\" \"d:\\\\Training\\\\sdd\\\\.claude\\\\skills\\\\speckit-tasks\" \"d:\\\\Training\\\\sdd\\\\.claude\\\\skills\\\\speckit-implement\" \"d:\\\\Training\\\\sdd\\\\specs\\\\001-login-page\" && echo \"Directories created\")"
+    ],
+    "additionalDirectories": [
+      "d:\\Training\\sdd\\.claude\\skills"
+    ]
+  }
+}

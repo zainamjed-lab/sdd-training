@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard — SDD Training</title>
+  <link rel="stylesheet" href="/css/styles.css" />
+  <style>
+    body { display: block; background: #f0f2f5; padding: 1.5rem; }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <h1>SDD Training App</h1>
+    <button class="btn-logout" id="logout-btn">Logout</button>
+  </div>
+
+  <div class="welcome-card">
+    <h2>Welcome!</h2>
+    <p>You are logged in as <strong id="user-email">…</strong></p>
+    <p style="margin-top:.75rem;">Your JWT authentication is working correctly. This page is protected — only accessible with a valid token.</p>
+  </div>
+
+  <script src="/js/auth.js"></script>
+  <script src="/js/dashboard.js"></script>
+</body>
+</html>
